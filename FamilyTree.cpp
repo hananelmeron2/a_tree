@@ -231,10 +231,7 @@ void Tree::remove(string name)
     if(help3 != NULL && (help3->gen1 == "m" || help3->gen1 == "f"))
     {
          g++;
-         for(int i=0; i<100; i++)
-         {
-             help5[i] = *root;
-         }
+         
          deleteTree(help3);
          
     }
