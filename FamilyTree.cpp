@@ -253,7 +253,7 @@ void Tree::deleteTree(TreeNode* &node)
     /* then delete the node */
     free (node); 
     node = NULL; 
-    cout << node->parent->person_name;
+    //cout << node->parent->person_name;
 }  
 
 void Tree::inorder_print(TreeNode *ptr)
